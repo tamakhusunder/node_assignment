@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "express": "^4.17.2",
+    "path": "^0.12.7"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "node-package",
+  "version": "1.0.0",
+  "description": "1st node file",
+  "main": "server.js",
+  "author": "sunder",
+  "license": "ISC"
+}

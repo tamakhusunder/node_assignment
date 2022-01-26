@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        .input {
+            transition: width 0.6s ease-in-out;
+            color: rgb(19, 18, 18);
+            font-size: 20px;
+            border-radius: 5px;
+            height: 100%;
+            margin-bottom: 1%;
+            }
+
+            .input:focus {
+                width: 30%;
+            }
+    </style>
+</head>
+<body>
+    <form method="post" action="http://localhost:3000/login">
+        <label for="username">Enter Username:</label><br>
+        <input class="input" type="text" id="username" name="username"><br>
+        <label for="password">Enter Password:</label><br>
+        <input class="input" type="password" id="password" name="password"><br>
+        <input type="submit" value="Login">
+        <input type="reset">
+    </form>
+</body>
+</html>
